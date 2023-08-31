@@ -1,0 +1,110 @@
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows:159.8% ;
+
+}
+
+/*.fundo{
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    margin-left: 80px;
+    margin-right: -8px;
+    margin-top:-160px;
+}*/
+
+.logo{
+    margin: -8px -8px -224px;
+    background-color: #2A0A44;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.backgroud{
+    background-color:#461959;
+    margin: -8px -8px -224px;
+    
+}
+
+h1{
+     margin: 100px 40px 18px 2px;
+}
+
+.d1{
+    margin-top: 10%;
+    margin-left: 34%;
+}
+#nome{
+    padding: 10px 90px;
+}
+#ln{
+    font-size: 20px;
+    color: white;
+}
+
+.d2{
+    margin-top: 3%;
+    margin-left: 34%;
+}
+#email{
+    padding: 10px 90px;
+}
+#le{
+    font-size: 20px;
+    color: white;    
+}
+
+.d3{
+    margin-top: 3%;
+    margin-left: 34%;
+}
+#senha{
+    padding: 10px 90px;
+}
+#ls{
+    font-size: 20px;
+    color: white;
+}
+
+.d4{
+    margin-top: 3%;
+    margin-left: 34%;
+}
+#dtn{
+    padding: 10px 90px;
+}
+#ld{
+    font-size: 20px;
+    color: white;
+}
+
+.d5{
+    margin-top: 3%;
+    margin-left: 34%;
+}
+#nu{
+    padding: 10px 90px;
+}
+#lnu{
+
+    font-size: 20px;
+    color: white;
+}
+
+input{
+    border-radius: 9px;
+}
+
+button{
+    padding: 15px 30px;
+    border-radius:30px ;
+    display: inline-block;
+}
+.b{
+    margin-top: 3%;
+    margin-left: 40%;
+}
+

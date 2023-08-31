@@ -1,0 +1,127 @@
+body{
+    background-color: #461959;
+}
+.container{
+    background-color:  #190a44ad;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:150.8% ;
+    margin-top: 35px ;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding: 20px 2px 329px;
+    border-radius: 40px;
+    border: solid #2a0a44 ;
+    box-shadow: 10px 10px 100px black;
+}
+
+.form{
+    margin-top: 150px;
+    margin-right: 140px;
+}
+
+.d2{
+    margin-top: 3%;
+    margin-left: 34%;
+}
+#senha{
+    padding: 20px 90px;
+}
+#ls{
+    font-size: 50px;
+    color: white;
+}
+.d1{
+    margin-top: 3%;
+    margin-left: 34%;
+}
+#nu{
+    padding: 10px 90px;
+}
+#lnu{
+
+    font-size: 20px;
+    color: white;
+}
+
+input{
+    border-radius: 9px;
+}
+
+button{
+    border-radius:60px ;
+    display: inline-block;
+    padding: 30px 60px;
+    margin-left: -200px;
+   
+}
+#en{
+    margin-top: 100px;
+}
+.b{
+    margin-top: 6%;
+    margin-left: 80%;
+}
+a{
+    color: white;
+    margin-left: -200px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:120.8% ;
+        margin-top: 20px ;
+        margin-left: 400px;
+        margin-right: 400px;
+        padding: 20px 2px 100px;
+    }
+    
+    .d2{
+        margin-top: 3%;
+        margin-left: 34%;
+    }
+    #senha{
+        padding: 20px 90px;
+    }
+    #ls{
+        font-size: 50px;
+        color: white;
+    }
+    .d1{
+        margin-top: 3%;
+        margin-left: 34%;
+    }
+    #nu{
+        padding: 10px 90px;
+    }
+    #lnu{
+    
+        font-size: 20px;
+        color: white;
+    }
+    
+    input{
+        border-radius: 9px;
+    }
+    
+    button{
+        border-radius:60px ;
+        display: inline-block;
+        padding: 30px 60px;
+        margin-left: -200px;
+       
+    }
+    #en{
+        margin-top: 100px;
+    }
+    .b{
+        margin-top: 6%;
+        margin-left: 80%;
+    }
+    a{
+        color: white;
+        margin-left: -200px;
+    }
+  }
