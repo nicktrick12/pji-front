@@ -1,45 +1,111 @@
-header{
+html {
+    box-sizing: border-box;
+}
+
+:root {
+    /* ----- Colors -----*/
+    --cinza: rgba(255, 255, 255, 0.719);
+    --roxo-claro: #461959;
+    --roxo-escuro: #2A0A44;
+    --roxo-mais-escuro: #190a44ad;
+
+    /* ----- Transitions -----*/
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
     margin-top: -8px;
     margin: -8.4px;
-}
-
-.itensh{
-    display: flex;
-    width: 60%;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-input {
-    border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.719);
-    box-shadow: 1px 1px 4px white;
-    outline: none;
-    padding-left: 30%;
-}
-
-a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    border-radius: 30px;
-    margin-left: 7%;
-    background-color: rgba(255, 255, 255, 0.719);
-    box-shadow: 1px 1px 4px white;
-    padding: 0.5%;
-}
-
-.generos{
-    margin-left: 70%;
-}
-
-header{
     background-color: black;
     box-shadow: 1px 1px 4px black;
     height: 3.5em;
     justify-content: space-between;
 }
+
+/* ----- Navbar ----- */
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: var(--cinza);
+    box-shadow: 1px 1px 4px white;
+    padding: 0.5%;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: var(--cinza);
+    transition: var(--tran-02);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item a {
+    display: inline-block;
+}
+
+input {
+    flex: 0.5;
+    border-radius: 30px;
+    background-color: var(--cinza);
+    box-shadow: 1px 1px 4px white;
+    outline: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+input:focus {
+    padding: relative;
+    border: double 2px transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.719), rgba(255, 255, 255, 0.719)), 
+                    linear-gradient(to right, #461959, #2A0A44, #190a44ad);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+@keyframes animate {
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: 250px;
+    }
+}
+
+
+@media all and (max-width: 600px) {  
+    
+    .navbar {  
+      flex-wrap: wrap;  
+    }
+
+    input {
+        flex-basis: 50%;
+    }
+
+}
+
