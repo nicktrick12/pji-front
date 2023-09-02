@@ -5,6 +5,8 @@ html {
 :root {
     /* ----- Colors -----*/
     --cinza: rgba(255, 255, 255, 0.719);
+    --purple-snow: #c86af1;
+    --roxo-mais-claro: #78229d;
     --roxo-claro: #461959;
     --roxo-escuro: #2A0A44;
     --roxo-mais-escuro: #190a44ad;
@@ -80,9 +82,10 @@ input:focus {
     border: double 2px transparent;
     border-radius: 30px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.719), rgba(255, 255, 255, 0.719)), 
-                    linear-gradient(to right, #461959, #2A0A44, #190a44ad);
+                    linear-gradient(to right top, #190a44ad, #2A0A44, #461959, #78229d, #c86af1);
     background-origin: border-box;
     background-clip: padding-box, border-box;
+    transition: var(--tran-05);
 }
 
 @keyframes animate {
